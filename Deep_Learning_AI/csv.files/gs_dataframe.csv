@@ -1,0 +1,95 @@
+Temperatura da Água (°C),Salinidade (ppt),Profundidade (m),pH,Presença de Espécie Marinha,Tipo de Habitat,Presença de Algas,Nível de Poluição
+16.46,35.77,75.64,8.09,0,Recife de Coral,Sim,Médio
+18.50,33.55,59.24,7.96,1,Mangue,Não,Baixo
+24.51,36.41,11.89,8.34,1,Plataforma Continental,Sim,Alto
+17.20,37.62,22.95,7.69,1,Recife de Coral,Não,Baixo
+23.39,38.73,44.22,7.88,1,Mangue,Sim,Médio
+10.78,34.66,91.77,8.10,0,Plataforma Continental,Não,Alto
+25.66,39.54,48.19,8.23,1,Recife de Coral,Sim,Médio
+12.48,31.22,10.53,7.75,0,Mangue,Não,Baixo
+27.90,33.91,19.61,8.45,1,Plataforma Continental,Sim,Alto
+14.11,34.78,87.31,8.00,0,Recife de Coral,Não,Médio
+19.30,32.15,73.23,7.94,0,Mangue,Sim,Baixo
+21.12,36.50,53.45,8.11,1,Plataforma Continental,Não,Alto
+26.49,38.88,26.14,8.29,1,Recife de Coral,Sim,Médio
+13.55,32.73,45.72,7.76,0,Mangue,Não,Baixo
+22.88,34.96,34.88,8.12,1,Plataforma Continental,Sim,Alto
+11.67,35.12,60.41,7.81,0,Recife de Coral,Não,Médio
+20.03,37.11,18.56,8.04,1,Mangue,Sim,Baixo
+29.55,31.93,14.22,8.40,1,Plataforma Continental,Não,Alto
+15.67,33.64,74.81,7.89,0,Recife de Coral,Sim,Médio
+28.23,39.10,32.35,8.37,1,Mangue,Não,Baixo
+21.73,36.01,60.15,7.93,1,Plataforma Continental,Sim,Alto
+13.90,35.48,46.78,7.98,0,Recife de Coral,Não,Médio
+22.68,34.75,33.53,8.24,1,Mangue,Sim,Baixo
+15.22,38.21,71.23,7.87,0,Plataforma Continental,Não,Alto
+24.44,32.50,27.39,8.08,1,Recife de Coral,Sim,Médio
+17.14,33.81,51.62,7.83,0,Mangue,Não,Baixo
+26.85,37.95,35.77,8.30,1,Plataforma Continental,Sim,Alto
+12.34,31.77,87.50,7.71,0,Recife de Coral,Não,Médio
+29.10,38.50,23.46,8.19,1,Mangue,Sim,Baixo
+20.48,33.29,41.52,7.89,0,Plataforma Continental,Não,Alto
+23.80,39.66,66.91,8.15,1,Recife de Coral,Sim,Médio
+10.25,35.92,72.10,7.95,0,Mangue,Não,Baixo
+25.38,32.83,11.34,8.27,1,Plataforma Continental,Sim,Alto
+14.89,34.32,57.62,7.76,0,Recife de Coral,Não,Médio
+28.66,36.18,30.22,8.12,1,Mangue,Sim,Baixo
+19.77,31.55,45.96,7.92,0,Plataforma Continental,Não,Alto
+27.23,39.89,12.08,8.34,1,Recife de Coral,Sim,Médio
+11.34,32.47,78.55,7.80,0,Mangue,Não,Baixo
+24.67,37.36,49.23,8.07,1,Plataforma Continental,Sim,Alto
+15.94,34.18,64.81,7.99,0,Recife de Coral,Não,Médio
+22.33,35.51,28.57,8.26,1,Mangue,Sim,Baixo
+13.46,33.74,92.73,7.79,0,Plataforma Continental,Não,Alto
+26.51,36.99,19.36,8.16,1,Recife de Coral,Sim,Médio
+12.91,31.66,63.85,7.85,0,Mangue,Não,Baixo
+20.92,38.18,37.56,8.03,1,Plataforma Continental,Sim,Alto
+17.74,34.65,79.51,7.91,0,Recife de Coral,Não,Médio
+23.19,36.50,27.14,8.29,1,Mangue,Sim,Baixo
+18.67,32.82,47.98,7.88,0,Plataforma Continental,Não,Alto
+27.45,37.74,23.65,8.18,1,Recife de Coral,Sim,Médio
+13.89,35.28,76.29,7.80,0,Mangue,Não,Baixo
+25.80,31.97,38.47,8.10,1,Plataforma Continental,Sim,Alto
+14.75,36.20,80.15,8.12,0,Recife de Coral,Sim,Médio
+19.60,34.80,55.30,7.99,1,Mangue,Não,Baixo
+25.20,36.90,13.50,8.42,1,Plataforma Continental,Sim,Alto
+16.80,37.20,28.60,7.65,1,Recife de Coral,Não,Baixo
+22.10,38.50,42.80,7.96,1,Mangue,Sim,Médio
+11.90,35.20,95.10,8.05,0,Plataforma Continental,Não,Alto
+26.40,40.10,51.80,8.30,1,Recife de Coral,Sim,Médio
+13.20,31.50,12.80,7.82,0,Mangue,Não,Baixo
+28.30,34.30,20.10,8.50,1,Plataforma Continental,Sim,Alto
+15.50,35.80,89.20,7.97,0,Recife de Coral,Não,Médio
+18.70,32.50,75.90,7.93,0,Mangue,Sim,Baixo
+20.90,36.80,56.30,8.15,1,Plataforma Continental,Não,Alto
+24.30,38.90,29.60,8.27,1,Recife de Coral,Sim,Médio
+12.80,32.80,48.30,7.78,0,Mangue,Não,Baixo
+23.10,35.10,36.20,8.18,1,Plataforma Continental,Sim,Alto
+10.90,36.50,62.10,7.84,0,Recife de Coral,Não,Médio
+21.00,37.30,20.80,8.01,1,Mangue,Sim,Baixo
+30.20,31.50,16.30,8.45,1,Plataforma Continental,Não,Alto
+16.30,32.90,78.70,7.92,0,Recife de Coral,Sim,Médio
+27.10,38.40,34.20,8.35,1,Mangue,Não,Baixo
+22.40,36.20,58.70,7.98,1,Plataforma Continental,Sim,Alto
+14.30,35.60,50.10,8.04,0,Recife de Coral,Não,Médio
+25.10,33.80,39.60,8.22,1,Mangue,Sim,Baixo
+17.60,37.20,77.80,7.88,0,Plataforma Continental,Não,Alto
+20.40,33.40,31.50,8.09,1,Recife de Coral,Sim,Médio
+11.50,34.10,54.20,7.85,0,Mangue,Não,Baixo
+27.80,36.80,38.50,8.25,1,Plataforma Continental,Sim,Alto
+15.60,33.30,93.20,7.96,0,Recife de Coral,Não,Médio
+19.90,39.00,23.40,8.12,1,Mangue,Sim,Baixo
+29.40,32.70,43.20,8.38,1,Plataforma Continental,Não,Alto
+18.30,35.10,19.70,7.89,0,Recife de Coral,Sim,Médio
+26.30,37.60,36.80,8.33,1,Mangue,Não,Baixo
+23.70,34.70,61.90,7.94,1,Plataforma Continental,Sim,Alto
+12.60,36.40,25.10,8.06,0,Recife de Coral,Não,Médio
+21.90,31.90,52.30,7.91,1,Mangue,Sim,Baixo
+31.00,38.60,17.80,8.20,1,Plataforma Continental,Não,Alto
+17.30,33.50,81.20,7.90,0,Recife de Coral,Sim,Médio
+28.20,35.30,37.40,8.28,1,Mangue,Não,Baixo
+24.20,32.90,38.60,8.16,1,Plataforma Continental,Sim,Alto
+13.40,38.00,96.30,7.98,0,Recife de Coral,Não,Médio
+22.60,34.40,33.20,8.14,1,Mangue,Sim,Baixo
+30.10,39.20,44.60,8.31,1,Plataforma Continental,Não,Alto
+19.20,36.60,17.90,7.87,0,Recife de Coral,Sim,Médio

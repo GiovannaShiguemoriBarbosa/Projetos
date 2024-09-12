@@ -1,13 +1,13 @@
 Hi 👋 My name is Giovanna Shiguemori Barbosa
 ============================================
 
-Cientista de Dados
+ ## Cientista de Dados
 ------------------
 
 Formada em Data Science , gostaria de atuar na área de dados.
 ============================================================
 
-Minhas habilidades:
+## Minhas habilidades:
 
 [![My Skills](https://skillicons.dev/icons?i=py,mysql,azure,mongodb,powershell,sklearn)](https://skillicons.dev)
 

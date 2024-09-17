@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_DIM_DTOC_TEMPO" directorySegmentName="seg_0" id="F82F4FB7-AEC6-12F6-E547-34E2EC019835">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:16:24 UTC</createdTime>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<engineerTo>
+<item key="9843B240-4B50-449B-A9FF-DC3EE4A5E854" value="true"/>
+</engineerTo>
+<sourcePk>EDC8325C-C600-9A40-C376-8116190605C6</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E0518990-BE2C-3A77-62FD-2AB7E349C041</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2F3CD92D-F719-0FD9-52BA-F64D81EAA434</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

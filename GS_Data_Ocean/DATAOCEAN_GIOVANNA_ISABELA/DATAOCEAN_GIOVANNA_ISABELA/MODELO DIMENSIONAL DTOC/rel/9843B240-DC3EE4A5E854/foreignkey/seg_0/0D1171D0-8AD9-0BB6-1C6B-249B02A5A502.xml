@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0D1171D0-8AD9-0BB6-1C6B-249B02A5A502" containerWithKeyObject="42096424-E601-35F3-065A-C7D62938FCF4" localFKIndex="67181EBB-709E-5772-2492-3526DB323F99" name="FK_DIM_DTOC_MOEDA">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:36:06 UTC</createdTime>
+<generatorID>1EC37F28-48C0-D32F-7550-C2590558654D</generatorID>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<referredTableLongName>DIM_DTOC_MOEDA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0A97F5E0-5B2C-0FD6-B206-8F1718DA8278</referredTableID>
+<keyObject>235905AF-8CD2-D3FB-7530-70563D4AF270</keyObject>
+<referredKeyID>235905AF-8CD2-D3FB-7530-70563D4AF270</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SK_MOEDA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

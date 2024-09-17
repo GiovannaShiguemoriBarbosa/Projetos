@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0A97F5E0-5B2C-0FD6-B206-8F1718DA8278" name="DIM_DTOC_MOEDA">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:36:06 UTC</createdTime>
+<generatorID>EF4E200C-B485-5E38-AB02-E4D0ED5D9977</generatorID>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<typeID>2</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SK_MOEDA" id="5DD48247-07DA-2CC2-17AF-352C12E508B2">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:36:06 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a surrogate key da moeda. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a surrogate key da moeda. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></commentInRDBMS>
+<generatorID>E75EBCEE-E108-5713-877C-7EC9206D9E3B</generatorID>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_MOEDA_PAIS" id="E00F5D3B-62AA-B74C-4AB9-683153FA97CD">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:36:06 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o nome da moeda do país. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o nome da moeda do país. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></commentInRDBMS>
+<generatorID>6413476D-FBDF-3109-DA17-82216A59E2A5</generatorID>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="235905AF-8CD2-D3FB-7530-70563D4AF270" name="DIM_DTOC_MOEDA_PK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:36:06 UTC</createdTime>
+<generatorID>123569B1-9A12-2D11-549A-29490286B75A</generatorID>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DD48247-07DA-2CC2-17AF-352C12E508B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

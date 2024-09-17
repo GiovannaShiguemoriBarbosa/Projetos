@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B468E6C7-996A-E2C5-812C-E604534115BB" containerWithKeyObject="42096424-E601-35F3-065A-C7D62938FCF4" localFKIndex="783D48D4-A34E-20B2-3B7B-AE050526A9EA" name="FK_DIM_DTOC_LOC">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:36:06 UTC</createdTime>
+<generatorID>CADA495A-E270-0D1F-441B-ECA42E24840B</generatorID>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<referredTableLongName>DIM_DTOC_LOCALIZACAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E7A04737-0995-AF77-E02D-924C591EFEE9</referredTableID>
+<keyObject>0EB14200-5618-0BE0-6FE5-A21A4802F834</keyObject>
+<referredKeyID>0EB14200-5618-0BE0-6FE5-A21A4802F834</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SK_DTOC_LOCALIZACAO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

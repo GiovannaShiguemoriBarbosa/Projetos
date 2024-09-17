@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="2E890877-ADB3-0496-3EA0-5D410C0DDBCF">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 11:54:45 UTC</createdTime>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

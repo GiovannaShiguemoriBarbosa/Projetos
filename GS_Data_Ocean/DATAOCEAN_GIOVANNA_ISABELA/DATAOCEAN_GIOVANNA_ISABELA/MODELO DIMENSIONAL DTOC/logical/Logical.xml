@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="467D7CBE-A0F7-1B69-2BD1-62CB344A2535" mainViewID="57A31F12-EB07-4061-4BAA-38A46E921A68">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 11:54:44 UTC</createdTime>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

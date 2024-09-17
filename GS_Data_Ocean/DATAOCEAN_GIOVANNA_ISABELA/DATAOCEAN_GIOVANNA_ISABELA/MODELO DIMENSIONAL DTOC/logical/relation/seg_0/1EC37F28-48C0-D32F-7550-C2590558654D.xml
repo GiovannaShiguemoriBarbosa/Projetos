@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_DIM_DTOC_MOEDA" directorySegmentName="seg_0" id="1EC37F28-48C0-D32F-7550-C2590558654D">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:14:36 UTC</createdTime>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<engineerTo>
+<item key="9843B240-4B50-449B-A9FF-DC3EE4A5E854" value="true"/>
+</engineerTo>
+<sourcePk>123569B1-9A12-2D11-549A-29490286B75A</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EF4E200C-B485-5E38-AB02-E4D0ED5D9977</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2F3CD92D-F719-0FD9-52BA-F64D81EAA434</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

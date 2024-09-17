@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_DIM_DTOC_LOC" directorySegmentName="seg_0" id="CADA495A-E270-0D1F-441B-ECA42E24840B">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:16:35 UTC</createdTime>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<engineerTo>
+<item key="9843B240-4B50-449B-A9FF-DC3EE4A5E854" value="true"/>
+</engineerTo>
+<sourcePk>F595B547-B885-1F8B-A712-70C7DC0105BE</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>10738BA4-0B11-BA5C-036B-CBB1E8BEC2D6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2F3CD92D-F719-0FD9-52BA-F64D81EAA434</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

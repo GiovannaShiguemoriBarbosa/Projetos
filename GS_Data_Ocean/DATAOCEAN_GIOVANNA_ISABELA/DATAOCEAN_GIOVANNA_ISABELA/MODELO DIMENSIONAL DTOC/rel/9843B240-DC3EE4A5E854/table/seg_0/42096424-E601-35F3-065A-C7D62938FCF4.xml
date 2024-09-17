@@ -1,0 +1,166 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="42096424-E601-35F3-065A-C7D62938FCF4" name="FTO_DTOC_INDICADOR">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:36:06 UTC</createdTime>
+<generatorID>2F3CD92D-F719-0FD9-52BA-F64D81EAA434</generatorID>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<typeID>1</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SK_MOEDA" id="64DA960A-E8B3-8133-DF75-1F69A4DE7A6E">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:36:06 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a surrogate key da moeda. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<generatorID>A15B477C-95DD-2D3E-9050-BD584C23D130</generatorID>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D1171D0-8AD9-0BB6-1C6B-249B02A5A502" referredColumn="5DD48247-07DA-2CC2-17AF-352C12E508B2"/>
+</associations>
+</Column>
+<Column name="SK_DTOC_ATV_ECONOMICA" id="E812856E-59F3-37C8-02A6-53D3BF9976BF">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:36:06 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber  a surrogate key da atividade economica. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<generatorID>FBB3CD2C-1F4F-87D7-31E4-7E4273386446</generatorID>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="872856FC-4F91-C1A7-F694-E0CCF3AEC1D6" referredColumn="6FB12AB4-D36E-E716-12DF-F94DDE4D1DA6"/>
+</associations>
+</Column>
+<Column name="SK_DTOC_TEMPO" id="150ACB5D-8712-7D53-5E1B-DC7E962B804B">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:36:06 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a surrogate key do tempo. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<generatorID>7922730A-BF24-FF62-2881-10AF8D22C777</generatorID>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="205217ED-537A-C5FD-D89E-FD5560DECBB5" referredColumn="F76BD18F-D737-CDDD-B922-5D1ECF672A07"/>
+</associations>
+</Column>
+<Column name="SK_DTOC_LOCALIZACAO" id="7523FA88-FEE6-1CA5-5098-CB7B00BDA77D">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:36:06 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber  a surrogate key da localização. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<generatorID>AB981F3A-1097-F7F3-0C05-4D3E03A2D649</generatorID>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B468E6C7-996A-E2C5-812C-E604534115BB" referredColumn="620F59B7-99C3-CEC0-6927-1EA0E7BC8AA3"/>
+</associations>
+</Column>
+<Column name="SK_DTOC_INDICADOR" id="AEA72C04-8261-8C85-B5B8-6997C33E0267">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:36:06 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a surrogate key do indicador. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a surrogate key do indicador. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></commentInRDBMS>
+<generatorID>EA69ED1E-3CB5-1B5C-984E-1D38EB921CB8</generatorID>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_INDICADOR" id="4590117D-D21E-569A-9231-34EF53D75874">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:36:06 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o nome do indicador. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o nome do indicador. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></commentInRDBMS>
+<generatorID>C025BBD4-F747-77FC-FA04-79DE862FE9DC</generatorID>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F014794-BE0A-38E4-5489-253895FAC10A" name="FTO_DTOC_INDICADOR_PK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:36:06 UTC</createdTime>
+<generatorID>4B73BD7F-393C-6B21-CC10-0257C2A9F881</generatorID>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEA72C04-8261-8C85-B5B8-6997C33E0267"/>
+<colUsage columnID="64DA960A-E8B3-8133-DF75-1F69A4DE7A6E"/>
+<colUsage columnID="E812856E-59F3-37C8-02A6-53D3BF9976BF"/>
+<colUsage columnID="150ACB5D-8712-7D53-5E1B-DC7E962B804B"/>
+<colUsage columnID="7523FA88-FEE6-1CA5-5098-CB7B00BDA77D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD005B2A-230E-995C-1E47-D0B854FF1B8F" name="FK_DIM_DTOC_ATV_ECONOMICA">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:36:06 UTC</createdTime>
+<generatorID>AECB1BD6-29A3-3611-CFF1-2DE25E480BCE</generatorID>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E812856E-59F3-37C8-02A6-53D3BF9976BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="783D48D4-A34E-20B2-3B7B-AE050526A9EA" name="FK_DIM_DTOC_LOC">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:36:06 UTC</createdTime>
+<generatorID>CADA495A-E270-0D1F-441B-ECA42E24840B</generatorID>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7523FA88-FEE6-1CA5-5098-CB7B00BDA77D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="67181EBB-709E-5772-2492-3526DB323F99" name="FK_DIM_DTOC_MOEDA">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:36:06 UTC</createdTime>
+<generatorID>1EC37F28-48C0-D32F-7550-C2590558654D</generatorID>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64DA960A-E8B3-8133-DF75-1F69A4DE7A6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F9113557-85C5-F8BC-42AA-3D39BF8307E6" name="FK_DIM_DTOC_TEMPO">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:36:06 UTC</createdTime>
+<generatorID>F82F4FB7-AEC6-12F6-E547-34E2EC019835</generatorID>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="150ACB5D-8712-7D53-5E1B-DC7E962B804B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="507A227D-3ABB-6A4D-3472-6D3496FAAD61" name="DIM_DTOC_ATV_ECONOMICA">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:05:35 UTC</createdTime>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<engineerTo>
+<item key="9843B240-4B50-449B-A9FF-DC3EE4A5E854" value="true"/>
+</engineerTo>
+<typeID>2</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SK_DTOC_ATV_ECONOMICA" id="A53C2357-218C-D3AE-6FFB-7D951E1AA6ED">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:06:25 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber  a surrogate key da atividade economica. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber  a surrogate key da atividade economica. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></commentInRDBMS>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<engineerTo>
+<item key="9843B240-4B50-449B-A9FF-DC3EE4A5E854" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_ATV_ECONOMICA" id="A0212AED-9D2F-7395-D89F-CDFC302B355F">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:07:06 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá recebera descrição da atividade economica (hierarquia de sub_sector). O conteúdo desse atributo será preenchido de forma automática pela aplicação.
+
+
+]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá recebera descrição da atividade economica (hierarquia de sub_sector). O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></commentInRDBMS>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<engineerTo>
+<item key="9843B240-4B50-449B-A9FF-DC3EE4A5E854" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_SETOR_ECONOMICO" id="422A7078-7753-04EC-EDDA-410441970A1A">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:09:08 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá recebera descrição do setor economico . O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá recebera descrição do setor economico . O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></commentInRDBMS>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<engineerTo>
+<item key="9843B240-4B50-449B-A9FF-DC3EE4A5E854" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_SUB_SETOR_ECONOMICO" id="62F098A2-40D1-F0F8-B633-8480BE844E17">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:10:01 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá recebera descrição do sub setor economico (hierarquia de setor) . O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá recebera descrição do sub setor economico (hierarquia de setor) . O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></commentInRDBMS>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<engineerTo>
+<item key="9843B240-4B50-449B-A9FF-DC3EE4A5E854" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3AA7589C-7C1E-3C81-0F62-F96326462B83" name="SK_DIM_DTOC_ATV_ECON">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:06:41 UTC</createdTime>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<engineerTo>
+<item key="9843B240-4B50-449B-A9FF-DC3EE4A5E854" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>A53C2357-218C-D3AE-6FFB-7D951E1AA6ED</newElementsIDs>
+<usedAttributes>
+<attributeRef>A53C2357-218C-D3AE-6FFB-7D951E1AA6ED</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_DIM_DTOC_ATV_ECONOMICA" directorySegmentName="seg_0" id="AECB1BD6-29A3-3611-CFF1-2DE25E480BCE">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:15:47 UTC</createdTime>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<engineerTo>
+<item key="9843B240-4B50-449B-A9FF-DC3EE4A5E854" value="true"/>
+</engineerTo>
+<sourcePk>3AA7589C-7C1E-3C81-0F62-F96326462B83</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>507A227D-3ABB-6A4D-3472-6D3496FAAD61</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2F3CD92D-F719-0FD9-52BA-F64D81EAA434</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

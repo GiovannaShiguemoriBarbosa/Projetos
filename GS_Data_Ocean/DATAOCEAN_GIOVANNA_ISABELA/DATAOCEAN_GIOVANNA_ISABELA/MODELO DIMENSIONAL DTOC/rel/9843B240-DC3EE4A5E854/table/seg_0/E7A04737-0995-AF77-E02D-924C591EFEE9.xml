@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7A04737-0995-AF77-E02D-924C591EFEE9" name="DIM_DTOC_LOCALIZACAO">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:36:06 UTC</createdTime>
+<generatorID>10738BA4-0B11-BA5C-036B-CBB1E8BEC2D6</generatorID>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<typeID>2</typeID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SK_DTOC_LOCALIZACAO" id="620F59B7-99C3-CEC0-6927-1EA0E7BC8AA3">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:36:06 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber  a surrogate key da localização. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber  a surrogate key da localização. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></commentInRDBMS>
+<generatorID>3BCD2C1B-ABA2-9FF6-624F-92D7EFBF52E5</generatorID>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_CONTINENTE" id="04219E1B-45BA-823E-B707-E0B833465FEA">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:36:06 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber  a descrição do continente. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber  a descrição do continente. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></commentInRDBMS>
+<generatorID>5DCF436B-D569-1AA0-2381-325679BAD018</generatorID>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_PAIS" id="84410241-6ACB-522C-FB98-D1C42CA0B742">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:36:06 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o nome do país. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o nome do país. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></commentInRDBMS>
+<generatorID>93D2FBEA-987A-8EB7-FBFF-BF6859861443</generatorID>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_CAPITAL_PAIS" id="2DA2045A-D1B0-666E-DF58-45D770203014">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:36:06 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o nome da capital do país. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o nome da capital do país. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></commentInRDBMS>
+<generatorID>A36D3BEA-568F-6698-B349-0D40A2EE58CD</generatorID>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_REGIAO_PAIS" id="F7A9636E-C3ED-F704-DFC5-148DB74C5DF5">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:36:06 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá recebera descrição da região do país. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá recebera descrição da região do país. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></commentInRDBMS>
+<generatorID>64A3211A-C5D6-DDA8-23E5-B572BDD504DA</generatorID>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0EB14200-5618-0BE0-6FE5-A21A4802F834" name="DIM_DTOC_LOCALIZACAO_PK">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:36:06 UTC</createdTime>
+<generatorID>F595B547-B885-1F8B-A712-70C7DC0105BE</generatorID>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="620F59B7-99C3-CEC0-6927-1EA0E7BC8AA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

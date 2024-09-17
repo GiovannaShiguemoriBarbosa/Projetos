@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2F3CD92D-F719-0FD9-52BA-F64D81EAA434" name="FTO_DTOC_INDICADOR">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:11:51 UTC</createdTime>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<engineerTo>
+<item key="9843B240-4B50-449B-A9FF-DC3EE4A5E854" value="true"/>
+</engineerTo>
+<typeID>1</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SK_MOEDA" id="A15B477C-95DD-2D3E-9050-BD584C23D130">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:14:36 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a surrogate key da moeda. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<generatorID>1EC37F28-48C0-D32F-7550-C2590558654D</generatorID>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<engineerTo>
+<item key="9843B240-4B50-449B-A9FF-DC3EE4A5E854" value="true"/>
+</engineerTo>
+<referedAttribute>E75EBCEE-E108-5713-877C-7EC9206D9E3B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SK_DTOC_ATV_ECONOMICA" id="FBB3CD2C-1F4F-87D7-31E4-7E4273386446">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:15:47 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber  a surrogate key da atividade economica. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<generatorID>AECB1BD6-29A3-3611-CFF1-2DE25E480BCE</generatorID>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<engineerTo>
+<item key="9843B240-4B50-449B-A9FF-DC3EE4A5E854" value="true"/>
+</engineerTo>
+<referedAttribute>A53C2357-218C-D3AE-6FFB-7D951E1AA6ED</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SK_DTOC_TEMPO" id="7922730A-BF24-FF62-2881-10AF8D22C777">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:16:24 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a surrogate key do tempo. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<generatorID>F82F4FB7-AEC6-12F6-E547-34E2EC019835</generatorID>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<engineerTo>
+<item key="9843B240-4B50-449B-A9FF-DC3EE4A5E854" value="true"/>
+</engineerTo>
+<referedAttribute>37251D54-979B-F944-1645-446F1ACCE318</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SK_DTOC_LOCALIZACAO" id="AB981F3A-1097-F7F3-0C05-4D3E03A2D649">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:16:35 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber  a surrogate key da localização. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<generatorID>CADA495A-E270-0D1F-441B-ECA42E24840B</generatorID>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<engineerTo>
+<item key="9843B240-4B50-449B-A9FF-DC3EE4A5E854" value="true"/>
+</engineerTo>
+<referedAttribute>3BCD2C1B-ABA2-9FF6-624F-92D7EFBF52E5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SK_DTOC_INDICADOR" id="EA69ED1E-3CB5-1B5C-984E-1D38EB921CB8">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:12:03 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a surrogate key do indicador. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a surrogate key do indicador. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></commentInRDBMS>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<engineerTo>
+<item key="9843B240-4B50-449B-A9FF-DC3EE4A5E854" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_INDICADOR" id="C025BBD4-F747-77FC-FA04-79DE862FE9DC">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:13:24 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o nome do indicador. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o nome do indicador. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></commentInRDBMS>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<engineerTo>
+<item key="9843B240-4B50-449B-A9FF-DC3EE4A5E854" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4B73BD7F-393C-6B21-CC10-0257C2A9F881" name="SK_FTO_DTOC_IND">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:12:22 UTC</createdTime>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<engineerTo>
+<item key="9843B240-4B50-449B-A9FF-DC3EE4A5E854" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>EA69ED1E-3CB5-1B5C-984E-1D38EB921CB8,1EC37F28-48C0-D32F-7550-C2590558654D,AECB1BD6-29A3-3611-CFF1-2DE25E480BCE,F82F4FB7-AEC6-12F6-E547-34E2EC019835,CADA495A-E270-0D1F-441B-ECA42E24840B</newElementsIDs>
+<usedAttributes>
+<attributeRef>EA69ED1E-3CB5-1B5C-984E-1D38EB921CB8</attributeRef>
+<attributeRef>A15B477C-95DD-2D3E-9050-BD584C23D130</attributeRef>
+<attributeRef>FBB3CD2C-1F4F-87D7-31E4-7E4273386446</attributeRef>
+<attributeRef>7922730A-BF24-FF62-2881-10AF8D22C777</attributeRef>
+<attributeRef>AB981F3A-1097-F7F3-0C05-4D3E03A2D649</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

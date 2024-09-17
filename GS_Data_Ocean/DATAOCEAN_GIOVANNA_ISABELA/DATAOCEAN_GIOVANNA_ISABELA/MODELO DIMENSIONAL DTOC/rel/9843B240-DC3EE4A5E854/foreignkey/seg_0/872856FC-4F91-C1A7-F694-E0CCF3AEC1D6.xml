@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="872856FC-4F91-C1A7-F694-E0CCF3AEC1D6" containerWithKeyObject="42096424-E601-35F3-065A-C7D62938FCF4" localFKIndex="BD005B2A-230E-995C-1E47-D0B854FF1B8F" name="FK_DIM_DTOC_ATV_ECONOMICA">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:36:06 UTC</createdTime>
+<generatorID>AECB1BD6-29A3-3611-CFF1-2DE25E480BCE</generatorID>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<referredTableLongName>DIM_DTOC_ATV_ECONOMICA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DDDA6A30-AA0A-6438-E347-EA29AAAF5900</referredTableID>
+<keyObject>319B126F-784D-0815-C31C-65207D3D5519</keyObject>
+<referredKeyID>319B126F-784D-0815-C31C-65207D3D5519</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SK_DTOC_ATV_ECONOMICA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

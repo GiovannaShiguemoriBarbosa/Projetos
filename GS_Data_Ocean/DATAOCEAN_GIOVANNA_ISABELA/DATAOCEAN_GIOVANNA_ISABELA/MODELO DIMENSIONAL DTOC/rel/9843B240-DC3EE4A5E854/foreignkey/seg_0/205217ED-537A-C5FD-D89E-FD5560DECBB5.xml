@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="205217ED-537A-C5FD-D89E-FD5560DECBB5" containerWithKeyObject="42096424-E601-35F3-065A-C7D62938FCF4" localFKIndex="F9113557-85C5-F8BC-42AA-3D39BF8307E6" name="FK_DIM_DTOC_TEMPO">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 13:36:06 UTC</createdTime>
+<generatorID>F82F4FB7-AEC6-12F6-E547-34E2EC019835</generatorID>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<referredTableLongName>DIM_DTOC_TEMPO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>01486087-4DC2-EA93-47E4-07889D40F4ED</referredTableID>
+<keyObject>F3D56AF3-6D6D-6BE9-1F13-2D7C87BE46C7</keyObject>
+<referredKeyID>F3D56AF3-6D6D-6BE9-1F13-2D7C87BE46C7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SK_DTOC_TEMPO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

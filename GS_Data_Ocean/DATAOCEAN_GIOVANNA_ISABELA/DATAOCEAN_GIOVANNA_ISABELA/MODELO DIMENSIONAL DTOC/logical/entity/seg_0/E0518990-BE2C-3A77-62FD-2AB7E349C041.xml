@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E0518990-BE2C-3A77-62FD-2AB7E349C041" name="DIM_DTOC_TEMPO">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 11:55:11 UTC</createdTime>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<engineerTo>
+<item key="9843B240-4B50-449B-A9FF-DC3EE4A5E854" value="true"/>
+</engineerTo>
+<typeID>2</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SK_DTOC_TEMPO" id="37251D54-979B-F944-1645-446F1ACCE318">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 11:55:42 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a surrogate key do tempo. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a surrogate key do tempo. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></commentInRDBMS>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<engineerTo>
+<item key="9843B240-4B50-449B-A9FF-DC3EE4A5E854" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_EVENTO" id="51F09878-1C12-42E7-CF22-2B8F5DCCC693">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 12:46:13 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber a data em que ocorreu o evento, ou seja, em um determinado, dia, mês e ano. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a data em que ocorreu o evento, ou seja, em um determinado, dia, mês e ano. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></commentInRDBMS>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<engineerTo>
+<item key="9843B240-4B50-449B-A9FF-DC3EE4A5E854" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_ANO" id="0C42710E-C00F-C089-62CB-91A536F42303">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 12:23:40 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o ano em que ocorreu o evento. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o ano em que ocorreu o evento. O conteúdo desse atributo será preenchido de forma automática pela aplicação.]]></commentInRDBMS>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<engineerTo>
+<item key="9843B240-4B50-449B-A9FF-DC3EE4A5E854" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_MES" id="F8574C43-2DBF-51B2-AAD4-7355850F6B5B">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 12:24:33 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o mês em que ocorreu o evento. O conteúdo desse atributo será preenchido de forma automática pela aplicação]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o mês em que ocorreu o evento. O conteúdo desse atributo será preenchido de forma automática pela aplicação]]></commentInRDBMS>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<engineerTo>
+<item key="9843B240-4B50-449B-A9FF-DC3EE4A5E854" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_DIA" id="4A42731C-F3FF-4989-68AB-C175405CC3B1">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 12:25:03 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o dia em que ocorreu o evento. O conteúdo desse atributo será preenchido de forma automática pela aplicação]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o dia em que ocorreu o evento. O conteúdo desse atributo será preenchido de forma automática pela aplicação]]></commentInRDBMS>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<engineerTo>
+<item key="9843B240-4B50-449B-A9FF-DC3EE4A5E854" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_DIA_SEMANA" id="535737DA-6487-CF74-45FE-FF5637BB5BD2">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 12:26:34 UTC</createdTime>
+<comment><![CDATA[Esse atributo irá receber o dia da semana em que ocorreu o evento. O conteúdo desse atributo será preenchido pelo processp de etl.]]></comment>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o dia da semana em que ocorreu o evento. O conteúdo desse atributo será preenchido pelo processp de etl.]]></commentInRDBMS>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<engineerTo>
+<item key="9843B240-4B50-449B-A9FF-DC3EE4A5E854" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EDC8325C-C600-9A40-C376-8116190605C6" name="SK_DIM_DTOC_TEMPO">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 11:55:51 UTC</createdTime>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<engineerTo>
+<item key="9843B240-4B50-449B-A9FF-DC3EE4A5E854" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>37251D54-979B-F944-1645-446F1ACCE318</newElementsIDs>
+<usedAttributes>
+<attributeRef>37251D54-979B-F944-1645-446F1ACCE318</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MODELO DIMENSIONAL DTOC" id="F92DFE2E-0DFF-1263-4A79-F2A131BA68FE" version="3.5">
+<createdBy>DELL</createdBy>
+<createdTime>2024-06-04 11:54:44 UTC</createdTime>
+<ownerDesignName>MODELO DIMENSIONAL DTOC</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>F92DFE2E-0DFF-1263-4A79-F2A131BA68FE</designId>
+</OSDM_Design>

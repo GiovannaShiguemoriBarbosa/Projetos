@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelo dimensional EchoScript - Sprint 3" id="4A0F33D5-9A34-3D53-2E21-B5AC56DFD265" version="3.5">
-<createdBy>giova</createdBy>
-<createdTime>2024-08-13 22:54:37 UTC</createdTime>
-<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>4A0F33D5-9A34-3D53-2E21-B5AC56DFD265</designId>
-</OSDM_Design>

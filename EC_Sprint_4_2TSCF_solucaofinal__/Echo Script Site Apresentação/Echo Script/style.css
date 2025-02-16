@@ -1,0 +1,937 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Wix+Madefor+Display:wght@400..800&display=swap');
+
+* {
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    user-select: none;
+}
+
+body {
+    background-color: #0C332C;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+
+/*Home*/
+.headerLogo {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 25px auto;
+    max-width: 1440px;
+    height: 15dvh;
+
+    & img {
+        width: 230px;
+        height: 10dvh;
+        filter: drop-shadow(0px 5px 1px rgb(0, 0, 0));
+    }
+}
+
+nav {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(5, 175px);
+    grid-template-rows: 30px;
+    font-family: "Overlock", sans-serif;
+    font-weight: 700;
+    color: aliceblue;
+    font-size: 22px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#Home {
+    text-decoration: none;
+    color: aliceblue;
+    padding-bottom: 5px;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+#Home::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1.5px;
+    background-color: #ffffff;
+    left: 0;
+    bottom: 0;
+    transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+#Home:hover {
+    color: #77FFE7;
+}
+
+#Home:hover::after {
+    width: 100%;
+    background-color: #77FFE7;
+}
+
+.homeEcho {
+    margin: 0 auto;
+    margin-top: 25px;
+    max-width: 1440px;
+    height: 90dvh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px 490px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.titleAboutUs {
+    font-family: "Wix Madefor Display", sans-serif;
+    font-weight: 700;
+    font-size: 90px;
+    color: aliceblue;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-Echo {
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    gap: 30px;
+    height: 100%;
+    display: grid;
+    padding: 10px 0px;
+    grid-template-columns: repeat(5, 3fr);
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    background-color: #77FFE7;
+    display: grid;
+    border-radius: 5px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 295px 50px 40px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:nth-child(2),
+.box:nth-child(4) {
+    display: grid;
+    height: 80%;
+    grid-template-rows: 250px 50px 30px;
+    background-color: #77FFE7;
+}
+
+.box:first-child,
+.box:last-child {
+    display: grid;
+    grid-template-rows: 200px 45px 30px;
+    height: 60%;
+    background-color: #77FFE7;
+}
+
+.imgBox {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+
+    & img {
+        margin-top: 10px;
+        width: 185px;
+        border-radius: 50%;
+        border: 5px solid white;
+    }
+}
+
+
+
+#KayakRepresenta {
+    margin-top: 10px;
+    width: 185px;
+    border-radius: 50%;
+    border: 5px solid #0C332C;
+}
+
+.integranteEcho,
+.RmIntegrante {
+    font-size: 22px;
+    font-family: "Montserrat", system-ui;
+    color: #0C332C;
+    font-weight: 700;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Contexto*/
+.contextEcho {
+    height: 100dvh;
+    width: 100dvw;
+    margin: 0px auto;
+    background-color: #fffce9;
+
+}
+
+.contentEcho {
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    display: flex;
+    margin: 0px auto;
+    height: 100%;
+    width: 100%;
+}
+
+.leftContextEcho {
+    width: 68%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 5px solid #ffffff;
+    background-color: #e9fffc;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.rightContextEcho {
+    width: 31%;
+    height: 90%;
+    /* border: 5px solid #ffffff;
+    background-color: #ffffff; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightMedida {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    z-index: 20;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.leftMedida {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.markerPromotores {
+    height: 49.5%;
+    width: 70%;
+    border-top: 3px solid rgb(0, 255, 0);
+    border-left: 3px solid rgb(0, 255, 0);
+    border-bottom: 3px solid rgb(0, 255, 0);
+
+    & #Promotor {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        /* transform: rotate(-90deg); */
+        color: #00ff08;
+        font-family: "Wix Madefor Display", sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+    }
+}
+
+.markerNeutros {
+    height: 29.5%;
+    width: 70%;
+    border-top: 3px solid #ffaa00;
+    border-left: 3px solid #ffaa00;
+    border-bottom: 3px solid #ffaa00;
+
+
+    & #Neutros {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        /* transform: rotate(-90deg); */
+        color: #ffaa00;
+        font-family: "Wix Madefor Display", sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+    }
+}
+
+.markerDetratores {
+    height: 19.5%;
+    width: 70%;
+    border-top: 3px solid #ff0000;
+    border-left: 3px solid #ff0000;
+    border-bottom: 3px solid #ff0000;
+
+    & #Detratores {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        /* transform: rotate(-90deg); */
+        color: #ff0000;
+        font-family: "Wix Madefor Display", sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+
+    }
+}
+
+.BarraMedidaNps {
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: linear-gradient(rgb(0, 255, 0), yellow, red);
+    z-index: 1000;
+}
+
+.medidaNps {
+    width: 80%;
+    height: 10px;
+    background-color: #272727;
+    position: absolute;
+    z-index: 1001;
+    top: 0;
+}
+
+.titleContextEcho {
+    transform: translateY(-25px);
+    width: 100%;
+    height: 14vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 587px;
+    border: 3px solid #ffffff;
+    background-color: #77FFE7;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.High,
+.Down {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 5px 35px;
+    gap: 10px;
+}
+
+.NPS {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    font-family: "Wix Madefor Display", sans-serif;
+
+    & h4 {
+        font-size: 25px;
+        margin: 5px 0px;
+    }
+
+    & p {
+        margin: 0px 5px 10px 5px;
+        color: #0C332C;
+        font-weight: 600;
+    }
+
+    & h3 {
+        display: flex;
+        align-self: center;
+        justify-content: space-between;
+        width: 335px;
+        margin: 25px;
+    }
+
+    & #nps2 {
+        align-self: center;
+        display: flex;
+        text-align: center;
+    }
+}
+
+
+.Desafio {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    font-family: "Wix Madefor Display", sans-serif;
+
+    & h4 {
+        font-size: 25px;
+        margin: 5px 0px;
+    }
+
+    & p {
+        margin: 0px 5px 10px 5px;
+        color: #0C332C;
+        font-weight: 600;
+    }
+
+    & h3 {
+        align-self: center;
+        display: flex;
+        text-align: center;
+    }
+}
+
+
+
+.boxAnswers {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    margin: 25px 0;
+    gap: 5px;
+    grid-template-rows: 25px;
+    grid-template-columns: repeat(10, 25px);
+}
+
+.boxQuestion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #ffffff;
+    font-weight: 700;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.boxQuestion:first-child {
+    background-color: #ff0000;
+}
+
+.boxQuestion:nth-child(2) {
+    background-color: #ff0000;
+}
+
+.boxQuestion:nth-child(3) {
+    background-color: #ff0000;
+}
+
+.boxQuestion:nth-child(4) {
+    background-color: #ff0000;
+}
+
+.boxQuestion:nth-child(5) {
+    background-color: #ff0000;
+}
+
+.boxQuestion:nth-child(6) {
+    background-color: #ff6600;
+}
+
+.boxQuestion:nth-child(7) {
+    background-color: #ffd000;
+}
+
+.boxQuestion:nth-child(8) {
+    background-color: #ffea00;
+}
+
+.boxQuestion:nth-child(9) {
+    background-color: #00ff08;
+}
+
+.boxQuestion:last-child {
+    background-color: #2fff00;
+}
+
+.titleContextEcho span {
+    width: 100%;
+    font-family: "Wix Madefor Display", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #272727;
+    font-weight: 700;
+    font-size: 90px;
+}
+
+/*Data*/
+.dataEcho {
+    margin: 0px auto;
+    height: 85dvh;
+    max-width: 1440px;
+}
+
+.contentArquitetura {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: repeat(7, 14.2%);
+    width: 100%;
+    height: 100%;
+}
+
+.titleArqEcho {
+    grid-column: span 5;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & h1 {
+        margin: 5px 25px;
+        text-align: start;
+        color: #ffffff;
+        font-size: 75px;
+        max-width: max-content;
+        font-weight: 900;
+        font-family: "Wix Madefor Display", sans-serif;
+    }
+}
+
+.imgArqEcho{
+    grid-row: 2 / span 6;
+    grid-column: 1/ span 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+
+    & img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+.videoArqEcho{
+    grid-row: 3 / span 4;
+    grid-column: 4 /span 3;
+    margin: 0px 0px 10px 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+
+    & iframe{
+        display: flex;
+        width: 100%;
+        height: 95%;
+    }
+}
+
+
+/*
+documentation*/
+.documentationEcho,
+.dashEcho {
+    height: 50dvh;
+    width: 100dvw;
+    margin: 0px auto;
+    background-color: #bcfff7;
+    display: grid;
+}
+
+.contentDocEcho {
+    max-width: 1440px;
+    display: flex;
+    width: 70%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+.highDocEcho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+    max-width: max-content;
+
+    & h1 {
+        font-weight: 900;
+        color: #0C332C;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 75px;
+        max-width: max-content;
+        font-family: "Wix Madefor Display", sans-serif;
+
+    }
+}
+
+.halfDocEcho {
+    width: 100%;
+    max-width: max-content;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & p {
+        color: #0C332C;
+        font-size: 20px;
+        font-weight: 600;
+        font-family: "Wix Madefor Display", sans-serif;
+        text-align: center;
+    }
+}
+
+.downDocEcho {
+    width: 100%;
+    height: 45px;
+    margin-top: 50px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+
+    & #doc {
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        background-color: #88faed;
+        border: none;
+        border-radius: 5px;
+        padding: 15px 100px;
+        font-size: 25px;
+        cursor: pointer;
+        font-weight: 700;
+        transition: all 0.2s ease;
+        color: #0C332C;
+    }
+
+    & #doc:hover {
+        background-color: #3dffe8;
+        transform: scale(1.05);
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+
+    & #doc:active {
+        transform: scale(0.95);
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+}
+
+.contentDashEcho {
+    max-width: 1440px;
+    display: flex;
+    width: 70%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+/*dashEcho*/
+.dashEcho {
+    margin: 0px auto;
+    background-color: #fffce9;
+}
+
+.leftDashEcho {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.rightDashEcho {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50%;
+    height: 100%;
+}
+
+.titleDashEcho {
+    width: 100%;
+    height: 40%;
+    max-width: max-content;
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+
+    & p {
+        font-weight: 900;
+        color: #272727;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 75px;
+        max-width: max-content;
+        font-family: "Wix Madefor Display", sans-serif;
+
+    }
+}
+
+.btnDashEcho {
+    width: 100%;
+    height: 45px;
+    margin-top: 50px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+    & #DashEcho {
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        background-color: #0C332C;
+        border: none;
+        border-radius: 5px;
+        padding: 15px 100px;
+        font-size: 25px;
+        cursor: pointer;
+        font-weight: 700;
+        transition: all 0.2s ease;
+        color: #77FFE7;
+    }
+
+    & #DashEcho:hover {
+        background-color: #18473e;
+        transform: scale(1.05);
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+
+    & #DashEcho:active {
+        transform: scale(0.95);
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+}
+
+.imgDashEcho {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    background-color: #bcfff7;
+
+    & img {
+        border: 5px solid rgb(255, 255, 255);
+        width: 100%;
+        height: 100%;
+        box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+        background: cover;
+
+    }
+}
+
+
+/*Footer*/
+footer {
+    width: 100%;
+    height: 25vh;
+    background-color: #0C332C;
+    max-width: 1440px;
+    margin: 0 auto;
+
+    & .contentFooter {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        gap: 7px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        & .cardImgFooter,
+        .cardHalfFooter,
+        .cardLinksFooter {
+            width: 33%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            & .imgEchoFooter {
+                width: 55%;
+                height: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                filter: drop-shadow(0px 5px 1px rgb(0, 0, 0));
+
+                & img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            & .contentHalfFooter {
+                width: 90%;
+                height: 90%;
+                flex-direction: column;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+
+                & h3 {
+                    color: #ffffff;
+                    font-size: 20px;
+                    margin-bottom: 1px;
+                    font-weight: 900;
+                    font-family: "Wix Madefor Display", sans-serif;
+                }
+            }
+
+            & .contentLinksFooter {
+                width: 90%;
+                height: 90%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                & .titleLinksFooter {
+                    width: 100%;
+                    height: 35%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-end;
+
+                    & h3 {
+                        color: #ffffff;
+                        font-size: 20px;
+                        font-weight: 900;
+                        font-family: "Wix Madefor Display", sans-serif;
+                    }
+                }
+
+                & .topicosFooter {
+                    width: 70%;
+                    height: 60%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: row;
+
+                    & .leftfooter {
+                        width: 50%;
+                        height: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: flex-end;
+                        flex-direction: column;
+
+                        & .lines {
+                            width: 60%;
+                            height: 95%;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: flex-end;
+
+                            & .line {
+                                width: 80%;
+                                height: 20%;
+                                display: flex;
+                                justify-content: flex-end;
+                                align-items: center;
+
+                                & .traco {
+                                    width: 100%;
+                                    height: 3px;
+                                    background-color: #77FFE7;
+                                }
+
+                            }
+
+                            & .line:nth-child(1),
+                            .line:nth-child(5) {
+                                width: 40%;
+                            }
+
+                            & .line:nth-child(2),
+                            .line:nth-child(4) {
+                                width: 60%;
+                            }
+
+
+                        }
+
+                    }
+
+                    & .rightFooter {
+                        width: 50%;
+                        height: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: flex-start;
+                        flex-direction: column;
+
+                        & #Footer {
+                            margin-left: 5px;
+                            color: #ffffff;
+                            font-size: 15px;
+                            font-weight: 600;
+                            font-family: "Wix Madefor Display", sans-serif;
+
+                        }
+
+                        & #Footer:hover {
+                            color: #77FFE7;
+                        }
+                    }
+                }
+            }
+
+        }
+
+    }
+}
+
+.privilegies {
+    display: flex;
+    font-family: "Montserrat", system-ui;
+    justify-content: center;
+    align-items: center;
+    color: #77FFE7;
+    font-size: 15px;
+    font-weight: 500;
+    width: 100%;
+    height: 5dvh;
+}

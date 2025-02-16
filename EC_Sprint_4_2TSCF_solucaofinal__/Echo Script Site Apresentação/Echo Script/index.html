@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECHO SCRIPT - Challenge</title>
+    <link rel="shortcut icon" href="./assets/icons/ondas-de-audio.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="headerLogo">
+        <img src="./assets/img/Design sem nome.png" alt="">
+    </header>
+    <nav>
+        <ul>
+            <li><a id="Home" href="#HOME">Sobre nós</a></li>
+            <li><a id="Home" href="#CONTEXT">Contexto</a></li>
+            <li><a id="Home" href="#DATA">Arquitetura</a></li>
+            <li><a id="Home" href="#DOC">Documentação</a></li>
+            <li><a id="Home" href="#DASH">Dashboard</a></li>
+        </ul>
+    </nav>
+    <section id="HOME" class="homeEcho">
+        <div class="titleAboutUs">
+            <span>SOBRE NÓS</span>
+        </div>
+        <div class="content-Echo">
+            <div class="box">
+                <div class="imgBox">
+                    <img src="./assets/img/Lucas.png" alt="">
+                </div>
+                <div class="integranteEcho">
+                    <span>Lucas Pinheiro</span>
+                </div>
+                <div class="RmIntegrante">
+                    <span>RM99061</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBox">
+                    <img src="./assets/img/Isitcha.png" alt="">
+                </div>
+                <div class="integranteEcho">
+                    <span>Isabela Novais</span>
+                </div>
+                <div class="RmIntegrante">
+                    <span>RM550234</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBox">
+                    <img src="./assets/img/Kayak.png" id="KayakRepresenta">
+                </div>
+                <div class="integranteEcho">
+                    <span>Caiky Ávila</span>
+                </div>
+                <div class="RmIntegrante">
+                    <span>RM990274</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBox">
+                    <img src="./assets/img/Giovanna.png" alt="">
+                </div>
+                <div class="integranteEcho">
+                    <span>Giovanna Barbosa</span>
+                </div>
+                <div class="RmIntegrante">
+                    <span>RM99105</span>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBox">
+                    <img src="./assets/img/Yann.png" alt="">
+                </div>
+                <div class="integranteEcho">
+                    <span>Yann Dantas</span>
+                </div>
+                <div class="RmIntegrante">
+                    <span>RM550783</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="CONTEXT" class="contextEcho">
+        <div class="contentEcho">
+            <div class="leftContextEcho">
+                <div class="titleContextEcho">
+                    <span>CONTEXTO</span>
+                </div>
+                <div class="High">
+                    <div class="NPS">
+                        <h4>O que é NPS?</h4>
+                        <p>O Net Promoter Score (NPS), criado por Fred Reichheld em 2003, é uma ferramenta simples para
+                            medir a lealdade dos clientes. Ele se baseia em uma pergunta sobre a probabilidade de
+                            recomendar a empresa, classificando os clientes como promotores (nota 9-10), neutros (7-8)
+                            ou detratores (0-6). O NPS é calculado subtraindo o percentual de detratores do percentual
+                            de promotores, resultando em uma pontuação entre -100 e +100. Amplamente usado por empresas,
+                            o NPS é eficaz para prever crescimento e acompanhar a satisfação dos clientes ao longo do
+                            tempo.</p>
+                        <h3>NPS = <span style="color: greenyellow; font-weight: 700;"> %Promotores</span> - <span
+                                style="color: rgb(255, 47, 47); font-weight: 700;"> %Detratores</span></h3>
+                        <p id="nps2">Com o NPS, empresas identificam pontos fortes e fracos, entendem as prioridades de
+                            clientes e colaboradores, elevando a qualidade de produtos e serviços.</p>
+                    </div>
+                </div>
+                <div class="Down">
+                    <div class="Desafio">
+                        <h4>Desafio</h4>
+                        <p>Atuamente a TOTVS enfrenta o desafio de aprimorar a análise das pesquisas NPS dos clientes. A
+                            baixa qualidade das transcrições de áudios, impede a extração eficiente de insights. O
+                            objetivo é desenvolver um sistema de transcrição com alta qualidade.</p>
+                        <h3>"Referente a essa experiência, em uma escala de 0 a 10, qual a probabilidade de você indicar
+                            a TOTVS para um amigo?"</h3>
+                        <div class="boxAnswers">
+                            <div class="boxQuestion">1</div>
+                            <div class="boxQuestion">2</div>
+                            <div class="boxQuestion">3</div>
+                            <div class="boxQuestion">4</div>
+                            <div class="boxQuestion">5</div>
+                            <div class="boxQuestion">6</div>
+                            <div class="boxQuestion">7</div>
+                            <div class="boxQuestion">8</div>
+                            <div class="boxQuestion">9</div>
+                            <div class="boxQuestion">10</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rightContextEcho">
+                <div class="leftMedida">
+                    <div class="markerPromotores">
+                        <h4 id="Promotor">Promotores</h4>
+                    </div>
+                    <div class="markerNeutros">
+                        <h4 id="Neutros">Neutros</h4>
+                    </div>
+                    <div class="markerDetratores">
+                        <h4 id="Detratores">Detratores</h4>
+                    </div>
+                </div>
+                <div class="rightMedida">
+                    <div class="BarraMedidaNps"></div>
+                    <div class="medidaNps"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="DATA" class="dataEcho">
+        <div class="contentArquitetura">
+            <div class="titleArqEcho"><h1>ARQUITETURA DE SOLUÇÃO</h1></div>
+            <div class="imgArqEcho">
+                <img src="./assets/img/solucao.png" alt="">
+            </div>
+            <div class="videoArqEcho">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/tlVWhwPFhDM?si=7G0VTHHSE-s2vKW5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        
+        </div>
+
+    </section>
+    <section id="DOC" class="documentationEcho">
+        <div class="contentDocEcho">
+            <div class="highDocEcho"><h1>DOCUMENTAÇÃO</h1></div>
+            <div class="halfDocEcho"><p>Confira a documentação completa do projeto disponível neste link e descubra todos os detalhes da nossa solução inovadora! Clique aqui e veja como podemos transformar seus resultados.</p></div>
+            <div class="downDocEcho">
+                <button id="doc">SAIBA MAIS</button>
+            </div>
+        </div>
+    </section>
+    <section id="DASH" class="dashEcho">
+        <div class="contentDashEcho">
+            <div class="leftDashEcho">
+                <div class="titleDashEcho">
+                    <p>DASH</p>
+                    <P>BOARD</P>
+                </div>
+                <div class="btnDashEcho">
+                    <button id="DashEcho">ACESSE AQUI!</button>
+                </div>
+            </div>
+            <div class="rightDashEcho">
+                <div class="imgDashEcho"><img src="./assets/img/dash.jpeg" alt=""></div>
+            </div>
+           
+        </div>
+    </section>
+    <footer>
+        <div class="contentFooter">
+            <div class="cardImgFooter">
+                <div class="imgEchoFooter">
+                    <img src="./assets/img/Design sem nome.png" alt="">
+                </div>
+            </div>
+            <div class="cardHalfFooter">
+                <div class="contentHalfFooter">
+                    <h3>Feito pela equipe Echo Script.</h3>
+                    <h3>2TSCF - FIAP</h3>
+                </div>
+            </div>
+            <div class="cardLinksFooter">
+                <div class="contentLinksFooter">
+                    <div class="titleLinksFooter">
+                        <h3>Conteúdo</h3>
+                    </div>
+                    <div class="topicosFooter">
+                        <div class="leftfooter">
+                            <div class="lines">
+                                <div class="line">
+                                    <div class="traco"></div>
+                                </div>
+                                <div class="line">
+                                    <div class="traco"></div>
+                                </div>
+                                <div class="line">
+                                    <div class="traco"></div>
+                                </div>
+                                <div class="line">
+                                    <div class="traco"></div>
+                                </div>
+                                <div class="line">
+                                    <div class="traco"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="rightFooter">
+                            <a id="Footer" href="#HOME">Sobre nós</a>
+                            <a id="Footer" href="#CONTEXT">Contexto</a>
+                            <a id="Footer" href="#DATA">Arquitetura</a>
+                            <a id="Footer" href="#DOC">Documentação</a>
+                            <a id="Footer" href="#DASH">Dashboard</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </footer>
+    <div class="privilegies">
+        <h6>ALL PRIVILEGIES 2024 ECHO SCRIPT | alissin</h6>
+    </div>
+</body>
+
+</html>
+<script>
+
+    const botao = document.getElementById('doc')
+    const btn = document.getElementById('DashEcho')
+
+   botao.addEventListener('click', function(){
+        window.open('https://drive.google.com/file/d/1s5WimLiOmolOK3wPHeLgTxu51wzZaCp9/view?usp=sharing')
+   })
+
+    btn.addEventListener('click', function(){
+
+    window.open('https://app.powerbi.com/view?r=eyJrIjoiYjhiN2JjNjQtMzQyMi00MTY2LTgwMTUtNTRlNzEzODYwMGJmIiwidCI6IjExZGJiZmUyLTg5YjgtNDU0OS1iZTEwLWNlYzM2NGU1OTU1MSIsImMiOjR9&embedImagePlaceholder=true')
+    })
+
+    
+
+    window.addEventListener('scroll', function () {
+        const section = document.querySelector('.contextEcho');
+        const barra = document.querySelector('.BarraMedidaNps');
+        const medida = document.querySelector('.medidaNps');
+
+
+        const sectionTop = section.offsetTop;
+        const sectionHeight = section.clientHeight;
+        const scrollTop = window.scrollY;
+        const windowHeight = window.innerHeight;
+
+
+        if (scrollTop + windowHeight >= sectionTop && scrollTop <= (sectionTop + sectionHeight)) {
+
+            const scrollPercent = (scrollTop + windowHeight - sectionTop) / (sectionHeight + windowHeight);
+
+
+            const barraHeight = barra.clientHeight;
+            const novaPosicao = scrollPercent * (barraHeight - 0);
+
+
+            medida.style.top = `${novaPosicao}px`;
+        } else {
+
+            medida.style.top = '0';
+        }
+    });
+
+
+</script>

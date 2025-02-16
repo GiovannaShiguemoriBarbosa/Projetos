@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ATENDIMENTO_FK" directorySegmentName="seg_0" id="01D01F27-BCEE-9FB7-CC21-07EC40D1CD38">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-14 00:43:32 UTC</createdTime>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<sourcePk>3EF7F32A-E451-E5C4-0844-E509E19A86AE</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2150B1C2-F7FB-5D5A-7FB5-43BD276ABDBC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>45A90F10-F04D-E9AE-D50F-E4E3A1F526F0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

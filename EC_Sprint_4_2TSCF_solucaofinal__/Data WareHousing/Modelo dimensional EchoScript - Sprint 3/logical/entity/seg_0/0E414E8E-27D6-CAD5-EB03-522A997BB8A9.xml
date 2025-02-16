@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0E414E8E-27D6-CAD5-EB03-522A997BB8A9" name="DIM_CLIENTE">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-13 23:29:27 UTC</createdTime>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<typeID>2</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SK_CLIENTE" id="AB3EAE60-A954-3012-D910-B887EF8F6099">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-13 23:30:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esta é a Surrogate Key da Dimensão cliente. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></commentInRDBMS>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_NOME" id="8F969A4E-7A1E-2363-0B3A-68FCABBBB725">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-13 23:35:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[Este atributo irá receber o nome do cliente. Seu conteúdo deve ser obrigatório e do tipo caractere.]]></commentInRDBMS>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>90</dataTypeSize>
+<ownDataTypeParameters>90,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CNPJ" id="4EC94DD1-B07E-1620-6F28-DF46D7D24D44">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-13 23:31:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[Este dado representa o número do cnpj  que ocorreu o evento na Dimensão cliente. Seu conteúdo deve ser obrigatório e do tipo numérico]]></commentInRDBMS>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,14,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_TELEFONE" id="34A8473A-DFEB-B966-466C-A0DCE64907B7">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-13 23:32:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[Este dado representa o número do telefone  que ocorreu o evento na Dimensão data. Seu conteúdo deve ser obrigatório e do tipo numérico]]></commentInRDBMS>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_EMAIL" id="0CF0645A-381B-7BA9-7F2D-CB731B7BE8F0">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-13 23:33:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Este atributo irá receber o email  do cliente. Seu conteúdo deve ser obrigatório e do tipo caractere.]]></commentInRDBMS>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_PORTE_EMPRESA" id="0BF71467-CBEA-0E1D-D58C-7CBE6AB93051">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-13 23:34:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Este atributo irá receber o porte da empresa  do cliente. Seu conteúdo deve ser obrigatório e do tipo caractere.]]></commentInRDBMS>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9BF837AB-1BF4-E6AA-50EC-B4B753B0E2EC" name="DIM CLIENTE FK">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-13 23:36:48 UTC</createdTime>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>AB3EAE60-A954-3012-D910-B887EF8F6099</newElementsIDs>
+<usedAttributes>
+<attributeRef>AB3EAE60-A954-3012-D910-B887EF8F6099</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

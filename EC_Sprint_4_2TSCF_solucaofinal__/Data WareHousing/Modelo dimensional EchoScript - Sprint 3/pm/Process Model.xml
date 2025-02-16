@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="F5C77097-9932-6CD5-257F-85325F7B0368">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-13 22:54:37 UTC</createdTime>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

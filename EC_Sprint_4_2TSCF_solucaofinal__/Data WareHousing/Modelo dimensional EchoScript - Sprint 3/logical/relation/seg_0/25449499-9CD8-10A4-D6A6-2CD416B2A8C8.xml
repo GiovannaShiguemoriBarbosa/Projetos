@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="LOCALIZACAO_FK" directorySegmentName="seg_0" id="25449499-9CD8-10A4-D6A6-2CD416B2A8C8">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-14 00:43:10 UTC</createdTime>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<sourcePk>BE4F9534-9817-43C2-6B63-57A849E8D045</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8336BA24-8910-0037-F63C-7AAA038656D6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>45A90F10-F04D-E9AE-D50F-E4E3A1F526F0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

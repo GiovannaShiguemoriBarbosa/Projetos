@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FB2A4D41-D13F-6662-2035-B1F3A7C79387" name="DIM_SISTEMA">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-13 23:08:51 UTC</createdTime>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<typeID>2</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SK_SISTEMA" id="BC341D62-CC2D-2759-3F94-76EC99DF1C89">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-13 23:09:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esta é a Surrogate Key da Dimensão Sistema. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></commentInRDBMS>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_SISTEMA" id="4DA11750-C55F-B010-B07F-12E496D4AAD5">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-13 23:09:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esta é código do sistema da Dimensão Vsistemar. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></commentInRDBMS>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_SISTEMA" id="E5D6D624-B6A6-BFE3-9798-CE36E2BB1B92">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-13 23:09:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esta é nome do sistema da Dimensão Sistema. Seu conteúdo deve ser obrigatório e do tipo string.]]></commentInRDBMS>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_PRODUTO" id="766264A6-92FD-84D5-3478-4A0024DAFFFC">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-13 23:09:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Os tipos de produtos  possíveis]]></commentInRDBMS>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_QUANT_VEND_SIS" id="0ED077F7-C36A-1890-7153-7BB46D85FE33">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-13 23:51:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esta é numero de sistemas vendidos da Dimensão sistema. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></commentInRDBMS>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>100000</dataTypePrecision>
+<ownDataTypeParameters>,100000,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_DIVER_PROD" id="FE316406-BF3F-B5CB-45A0-42E7A4390DAB">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-13 23:54:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Os tipos de produtos diversos]]></commentInRDBMS>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6C692BA6-4D19-509A-9E29-C325EA6C43F1" name="DIM SISTEMA PK">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-13 23:15:26 UTC</createdTime>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>BC341D62-CC2D-2759-3F94-76EC99DF1C89</newElementsIDs>
+<usedAttributes>
+<attributeRef>BC341D62-CC2D-2759-3F94-76EC99DF1C89</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

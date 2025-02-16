@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2150B1C2-F7FB-5D5A-7FB5-43BD276ABDBC" name="DIM_ATENDIMENTO">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-14 00:20:26 UTC</createdTime>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<typeID>2</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SK_ATENDIMENTO" id="BD9D2F58-6DB6-EE88-4F87-CF891D8CCCBD">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-14 00:21:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esta é a Surrogate Key da Dimensão atendimento. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></commentInRDBMS>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_DURACAO_LIG" id="861D44FA-E59F-4458-2AD8-BC12B8494897">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-14 00:24:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a duração da ligação . O conteúdo desse atributo será preenchido de forma automática pela aplicação]]></commentInRDBMS>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_NOTA_MEDIA" id="8A2E0C62-8B63-EE98-F15B-368A43D95135">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-14 00:24:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a nota média dada ao serviço. O conteúdo desse atributo será preenchido de forma automática pela aplicação]]></commentInRDBMS>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_SATISFACAO_CLI" id="B7696129-1240-F3BF-AA7A-58FBD78A6921">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-14 00:25:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o numero de satisfacao do cliente. O conteúdo desse atributo será preenchido de forma automática pela aplicação]]></commentInRDBMS>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_TEMP_MED_ATEND" id="325C2BC1-0D4A-14AA-F921-C416C969A691">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-14 00:25:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o tempo medio do atendimento . O conteúdo desse atributo será preenchido de forma automática pela aplicação]]></commentInRDBMS>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3EF7F32A-E451-E5C4-0844-E509E19A86AE" name="DIM ATENDIMENTO FK">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-14 00:26:02 UTC</createdTime>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>BD9D2F58-6DB6-EE88-4F87-CF891D8CCCBD</newElementsIDs>
+<usedAttributes>
+<attributeRef>BD9D2F58-6DB6-EE88-4F87-CF891D8CCCBD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

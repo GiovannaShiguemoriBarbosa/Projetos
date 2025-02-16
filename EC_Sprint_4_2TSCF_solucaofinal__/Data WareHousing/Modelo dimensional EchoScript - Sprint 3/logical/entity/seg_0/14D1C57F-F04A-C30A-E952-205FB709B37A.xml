@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="14D1C57F-F04A-C30A-E952-205FB709B37A" name="DIM_DATA">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-13 23:19:40 UTC</createdTime>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<typeID>2</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SK_DATA" id="0383EBEC-52FC-260E-5E76-04E43451CDA5">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-13 23:19:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esta é a Surrogate Key da Dimensão data. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></commentInRDBMS>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_DIA" id="D8FD6BC6-4B31-DFF0-0E53-25961ABB8C2C">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-13 23:19:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Este dado representa o dia da semana que ocorreu o evento na Dimensão data. Seu conteúdo deve ser obrigatório e do tipo numérico.]]></commentInRDBMS>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_ANO" id="33FD034D-F04B-21D0-BC2D-3B4BE92A5EFF">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-13 23:19:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Este dado representa o ano que ocorreu o evento na Dimensão data. Seu conteúdo deve ser obrigatório e do tipo numérico. ]]></commentInRDBMS>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_MES" id="A2961137-8BE6-ECFC-431B-9C4CAA3F579F">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-13 23:19:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[Este dado representa o mes por extenso da semana que ocorreu o evento na Dimensão data. Seu conteúdo deve ser obrigatório e do tipo string.]]></commentInRDBMS>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_FERIADO" id="F256F33F-88A7-4D43-0D11-978991684DC5">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-13 23:19:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[Este dado representa o nome do feriado que ocorreu o evento na Dimensão data. Seu conteúdo deve ser opcional e do tipo string. ]]></commentInRDBMS>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_DIA_SEMANA_EXTENSO" id="7DFDCD18-E8D9-AEF5-B91C-227CF7D610BA">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-13 23:23:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Este dado representa o dia por extenso da semana que ocorreu o evento na Dimensão data. Seu conteúdo deve ser obrigatório e do tipo string.]]></commentInRDBMS>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>18</dataTypeSize>
+<ownDataTypeParameters>18,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AAA3A3B4-308D-0874-4AAE-DDFD5E169136" name="DIM DATA FK">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-13 23:27:46 UTC</createdTime>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>0383EBEC-52FC-260E-5E76-04E43451CDA5</newElementsIDs>
+<usedAttributes>
+<attributeRef>0383EBEC-52FC-260E-5E76-04E43451CDA5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

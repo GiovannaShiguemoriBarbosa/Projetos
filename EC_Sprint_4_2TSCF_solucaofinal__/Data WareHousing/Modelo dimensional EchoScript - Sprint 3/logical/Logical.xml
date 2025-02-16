@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="3BA27066-0D55-7750-1AB0-C8314F55CED0" mainViewID="8783D6CA-5CAA-DA98-C4CD-9EB97B27B410">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-13 22:54:37 UTC</createdTime>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

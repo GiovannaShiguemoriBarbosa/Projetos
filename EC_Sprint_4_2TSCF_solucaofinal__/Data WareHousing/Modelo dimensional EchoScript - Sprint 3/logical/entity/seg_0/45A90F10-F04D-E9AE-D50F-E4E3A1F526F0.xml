@@ -1,0 +1,178 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="45A90F10-F04D-E9AE-D50F-E4E3A1F526F0" name="FTO_ECO_NPS">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-13 22:56:00 UTC</createdTime>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<typeID>1</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SK_DATA" id="2F827747-865E-9C17-57FC-51397538B231">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-14 00:42:26 UTC</createdTime>
+<generatorID>54736554-7278-B793-E546-38E7D8A1724B</generatorID>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<referedAttribute>0383EBEC-52FC-260E-5E76-04E43451CDA5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SK_SISTEMA" id="13783730-3C7B-1238-2707-9EC5BC7E62FA">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-14 00:42:46 UTC</createdTime>
+<generatorID>0B1B2152-4048-7DEC-40CA-C21E3081FDCC</generatorID>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<referedAttribute>BC341D62-CC2D-2759-3F94-76EC99DF1C89</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SK_CLIENTE" id="D4D3EE1A-DADD-5A10-0B26-9DCBB4A64BCF">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-14 00:42:58 UTC</createdTime>
+<generatorID>D944BA2D-F8F2-8E97-0DD0-D46B0C1CA94A</generatorID>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<referedAttribute>AB3EAE60-A954-3012-D910-B887EF8F6099</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SK_LOCALIZACAO" id="D1EF0F26-5930-DF76-4528-FCA8DA04EBF6">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-14 00:43:10 UTC</createdTime>
+<generatorID>25449499-9CD8-10A4-D6A6-2CD416B2A8C8</generatorID>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<referedAttribute>72E0078B-A376-8045-B14A-33C669A1F42F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SK_ATENDIMENTO" id="B8320BA4-4D3F-F9AE-C748-722C3ADE4F2E">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-14 00:43:32 UTC</createdTime>
+<generatorID>01D01F27-BCEE-9FB7-CC21-07EC40D1CD38</generatorID>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<referedAttribute>BD9D2F58-6DB6-EE88-4F87-CF891D8CCCBD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_NOTA" id="B1E90EF0-1B09-8901-1A2C-6B26B82184BF">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-13 22:56:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a nota dada ao serviço. O conteúdo desse atributo será preenchido de forma automática pela aplicação]]></commentInRDBMS>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_CLASSIFICADOR" id="A63CD0E7-E07C-1B92-3BE4-6537D56DF3F7">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-13 22:56:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Este atributo irá receberdescricao da classificador.  Este atributo será oriundo da origem de dadosno ambiente operacional, ou seja, da ligação).]]></commentInRDBMS>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_TAXA_CRESCIMENTO" id="0A1C9AE6-EE46-667E-7928-CE06876984A9">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-14 00:05:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a taxa de crescimento. O conteúdo desse atributo será preenchido de forma automática pela aplicação]]></commentInRDBMS>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_TAXA_ABAND" id="D1B678A0-4589-F9D3-48DE-36B339C04387">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-14 00:09:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a taxa de abandono. O conteúdo desse atributo será preenchido de forma automática pela aplicação]]></commentInRDBMS>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_TAXA_RESP_SIST" id="22E3CA3D-DAC7-CD2C-E4BD-F232EB83E225">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-14 00:27:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Esse atributo irá receber a taxa de resposta do sistema. O conteúdo desse atributo será preenchido de forma automática pela aplicação]]></commentInRDBMS>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="40BD86F2-FDD4-3586-3BC5-CC1D41547A96" name="FTO_ECO_NPS PK">
+<createdBy>giova</createdBy>
+<createdTime>2024-08-14 00:42:26 UTC</createdTime>
+<ownerDesignName>Modelo dimensional EchoScript - Sprint 3</ownerDesignName>
+<engineerTo>
+<item key="DDBBCA88-24FC-33C6-6F54-6262D642A984" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2F827747-865E-9C17-57FC-51397538B231</attributeRef>
+<attributeRef>13783730-3C7B-1238-2707-9EC5BC7E62FA</attributeRef>
+<attributeRef>D4D3EE1A-DADD-5A10-0B26-9DCBB4A64BCF</attributeRef>
+<attributeRef>D1EF0F26-5930-DF76-4528-FCA8DA04EBF6</attributeRef>
+<attributeRef>B8320BA4-4D3F-F9AE-C748-722C3ADE4F2E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

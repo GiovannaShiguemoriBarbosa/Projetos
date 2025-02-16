@@ -1,0 +1,5 @@
+IP Público
+146.235.25.70
+
+Senha Usúario Hadoop:
+hadoop
